@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jan 22 17:23:37 2022
-
-@author: 91943
-"""
-
 import pandas as pd
 df=pd.read_csv('C:/Users/91943/PROJECT/Stock Price Sentiment Analysis/Data.csv', encoding = "ISO-8859-1")
 
@@ -66,9 +59,6 @@ score=accuracy_score(y_test,predictions)
 print(score)
 report=classification_report(y_test,predictions)
 print(report)
-
-
-
 
 
 
