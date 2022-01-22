@@ -59,13 +59,3 @@ score=accuracy_score(y_test,predictions)
 print(score)
 report=classification_report(y_test,predictions)
 print(report)
-
-
-
-
-
-
-
-
-
-
