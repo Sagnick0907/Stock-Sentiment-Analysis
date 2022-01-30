@@ -21,7 +21,7 @@ For the NLP implementation code –
   -	Created the **Bag of Words model** and where for **CountVectorizer** we select ngram_range=(2,2)(all combinations of 2 words).
   -	We **transformed** both Training dataset and Testing dataset using **CountVectorizer**.
   -	Trained & tested the model using **RandomForestClassifier**.
-  -	From sklearn we imported **metrics** to produce classification_report,confusion_matrix & confusion_matrix for our model.  
+  -	From sklearn we imported **metrics** to produce classification_report & confusion_matrix for our model.  
 
 ## Technologies Used
 - Spyder IDE
